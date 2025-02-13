@@ -31,13 +31,13 @@
                 $mail->isSMTP();
                 $mail->Host = 'smtp.gmail.com';  // Cambiar esto por tu servidor SMTP
                 $mail->SMTPAuth = true;
-                $mail->Username = 'ramirezlimasdanny@gmail.com'; // Cambiar esto por tu dirección de correo
-                $mail->Password = 'mcfthljuyybavfay'; // Cambiar esto por tu contraseña de correo
+                $mail->Username = 'josueyalli098@gmail.com'; // Cambiar esto por tu dirección de correo
+                $mail->Password = 'pyciovweyjpizthq'; // Cambiar esto por tu contraseña de correo
                 //$mail->SMTPSecure = 'tls'; // tls o ssl, dependiendo de tu configuración
                 $mail->Port = 587; // Puerto SMTP, 587 para TLS o 465 para SSL
 
                 // Configurar remitente y destinatario
-                $mail->setFrom('ramirezlimasdanny@gmail.com', 'Ramirez Limas Danny');
+                $mail->setFrom('josueyalli098@gmail.com', 'Ramirez Limas Danny');
                 $mail->addAddress($email); // Utiliza la variable $email
 
                 // Contenido del correo
